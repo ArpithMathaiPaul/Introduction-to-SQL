@@ -1,0 +1,256 @@
+PRAGMA foreign_keys = '1';
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+PRAGMA encoding;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14" LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14" LIMIT 0, 49999;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "EmpStatusID" ASC LIMIT 0, 49999;
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "EmpStatusID" DESC LIMIT 0, 49999;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "EmpStatusID" ASC LIMIT 0, 49999;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "EmpStatusID" DESC LIMIT 0, 49999;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "EmpStatusID" ASC LIMIT 0, 49999;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "EmpStatusID" DESC LIMIT 0, 49999;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "EmpStatusID" ASC LIMIT 0, 49999;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "EmpStatusID" DESC LIMIT 0, 49999;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" ASC LIMIT 0, 49999;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+SAVEPOINT "RESTOREPOINT";
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+SAVEPOINT "RESTOREPOINT";
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+SAVEPOINT "RESTOREPOINT";
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+SAVEPOINT "RESTOREPOINT";
+SELECT COUNT(*) FROM (SELECT count(*) FROM HRDataset_v14 WHERE Position="Production Technician I");
+SELECT count(*) FROM HRDataset_v14 WHERE Position="Production Technician I" LIMIT 0, 49999;
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+SAVEPOINT "RESTOREPOINT";
+SELECT COUNT(*) FROM (SELECT count(*) FROM HRDataset_v14 WHERE Position="Production Technician I");
+SELECT count(*) FROM HRDataset_v14 WHERE Position="Production Technician I" LIMIT 0, 49999;
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+SAVEPOINT "RESTOREPOINT";
+SELECT COUNT(*) FROM (SELECT * FROM HRDataset_v14 WHERE EmploymentStatus="Active" AND Salary<"$60,000");
+SELECT * FROM HRDataset_v14 WHERE EmploymentStatus="Active" AND Salary<"$60,000" LIMIT 0, 49999;
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+SAVEPOINT "RESTOREPOINT";
+SELECT COUNT(*) FROM (SELECT count(*) FROM HRDataset_v14 WHERE Position="Production Technician I");
+SELECT count(*) FROM HRDataset_v14 WHERE Position="Production Technician I" LIMIT 0, 49999;
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+SAVEPOINT "RESTOREPOINT";
+SELECT COUNT(*) FROM (SELECT * FROM HRDataset_v14 WHERE EmploymentStatus="Active" AND Salary<60000);
+SELECT * FROM HRDataset_v14 WHERE EmploymentStatus="Active" AND Salary<60000 LIMIT 0, 49999;
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+SAVEPOINT "RESTOREPOINT";
+SELECT COUNT(*) FROM (SELECT count(*) FROM HRDataset_v14 WHERE Position="Production Technician I");
+SELECT count(*) FROM HRDataset_v14 WHERE Position="Production Technician I" LIMIT 0, 49999;
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+SAVEPOINT "RESTOREPOINT";
+SELECT COUNT(*) FROM (SELECT Employee_Name FROM HRDataset_v14 WHERE EmploymentStatus="Active" AND Salary<60000);
+SELECT Employee_Name FROM HRDataset_v14 WHERE EmploymentStatus="Active" AND Salary<60000 LIMIT 0, 49999;
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" ASC LIMIT 0, 49999;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+SAVEPOINT "RESTOREPOINT";
+SELECT COUNT(*) FROM (SELECT count(*) FROM HRDataset_v14 WHERE Position="Production Technician I");
+SELECT count(*) FROM HRDataset_v14 WHERE Position="Production Technician I" LIMIT 0, 49999;
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+SAVEPOINT "RESTOREPOINT";
+SELECT COUNT(*) FROM (SELECT Employee_Name FROM HRDataset_v14 WHERE EmploymentStatus="Active" AND Salary<60000);
+SELECT Employee_Name FROM HRDataset_v14 WHERE EmploymentStatus="Active" AND Salary<60000 LIMIT 0, 49999;
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+SAVEPOINT "RESTOREPOINT";
+SELECT COUNT(*) FROM (SELECT Employee_Name FROM HRDataset_v14 WHERE ManagerName="Michael Albert");
+SELECT Employee_Name FROM HRDataset_v14 WHERE ManagerName="Michael Albert" LIMIT 0, 49999;
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+SAVEPOINT "RESTOREPOINT";
+SELECT COUNT(*) FROM (SELECT count(*) FROM HRDataset_v14 WHERE Position="Production Technician I");
+SELECT count(*) FROM HRDataset_v14 WHERE Position="Production Technician I" LIMIT 0, 49999;
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+SAVEPOINT "RESTOREPOINT";
+SELECT COUNT(*) FROM (SELECT Employee_Name FROM HRDataset_v14 WHERE EmploymentStatus="Active" AND Salary<60000);
+SELECT Employee_Name FROM HRDataset_v14 WHERE EmploymentStatus="Active" AND Salary<60000 LIMIT 0, 49999;
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+SAVEPOINT "RESTOREPOINT";
+SELECT COUNT(*) FROM (SELECT Employee_Name FROM HRDataset_v14 WHERE ManagerName="Michael Albert");
+SELECT Employee_Name FROM HRDataset_v14 WHERE ManagerName="Michael Albert" LIMIT 0, 49999;
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+SAVEPOINT "RESTOREPOINT";
+SELECT COUNT(*) FROM (SELECT Employee_Name FROM HRDataset_v14 WHERE Position="Production Technician II" AND EngagementSurvey=5);
+SELECT Employee_Name FROM HRDataset_v14 WHERE Position="Production Technician II" AND EngagementSurvey=5 LIMIT 0, 49999;
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+SELECT "_rowid_",* FROM "main"."HRDataset_v14"  ORDER BY "GenderID" DESC LIMIT 0, 49999;
+SELECT COUNT(*) FROM "main"."HRDataset_v14"
+SAVEPOINT "RESTOREPOINT";
+SELECT COUNT(*) FROM (SELECT count(*) FROM HRDataset_v14 WHERE Position="Production Technician I");
+SELECT count(*) FROM HRDataset_v14 WHERE Position="Production Technician I" LIMIT 0, 49999;
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+SAVEPOINT "RESTOREPOINT";
+SELECT COUNT(*) FROM (SELECT Employee_Name FROM HRDataset_v14 WHERE EmploymentStatus="Active" AND Salary<60000);
+SELECT Employee_Name FROM HRDataset_v14 WHERE EmploymentStatus="Active" AND Salary<60000 LIMIT 0, 49999;
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+SAVEPOINT "RESTOREPOINT";
+SELECT COUNT(*) FROM (SELECT Employee_Name FROM HRDataset_v14 WHERE ManagerName="Michael Albert");
+SELECT Employee_Name FROM HRDataset_v14 WHERE ManagerName="Michael Albert" LIMIT 0, 49999;
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+SAVEPOINT "RESTOREPOINT";
+SELECT COUNT(*) FROM (SELECT Employee_Name FROM HRDataset_v14 WHERE Position="Production Technician II" AND EngagementSurvey=5);
+SELECT Employee_Name FROM HRDataset_v14 WHERE Position="Production Technician II" AND EngagementSurvey=5 LIMIT 0, 49999;
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
+SAVEPOINT "RESTOREPOINT";
+SELECT COUNT(*) FROM (SELECT Max(Salary), Position FROM HRDataset_v14);
+SELECT Max(Salary), Position FROM HRDataset_v14 LIMIT 0, 49999;
+ROLLBACK TO SAVEPOINT "RESTOREPOINT";
+PRAGMA database_list;
+SELECT type,name,sql,tbl_name FROM "main".sqlite_master;
+RELEASE "RESTOREPOINT";
